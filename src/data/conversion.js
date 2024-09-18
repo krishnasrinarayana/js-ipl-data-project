@@ -7,8 +7,6 @@
   const deliveriesCsvFile = path.join(__dirname, 'deliveries.csv');
   const matchesCsvFile = path.join(__dirname, 'matches.csv');
 
- 
-
   
   function csvToObjectSync(filePath){
     const result = [];
@@ -23,7 +21,7 @@
   });
 }
 
-//
+
 function convertAndWriteFileSync(){
   csvToObjectSync(matchesCsvFile);
   csvToObjectSync(deliveriesCsvFile)
