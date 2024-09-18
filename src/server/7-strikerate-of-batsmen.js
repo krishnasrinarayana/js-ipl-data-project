@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-
 // Simplified read and write functions
 const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+
 
 // Function to calculate strike rates per season
 function strikeRatePerSeason(matches, deliveries) {
