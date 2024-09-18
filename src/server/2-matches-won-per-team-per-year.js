@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-
 const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
@@ -30,6 +29,7 @@ function calculateWinsPerTeamPerYear(matches) {
 
   return winsPerTeamPerYear;
 }
+
 
 // Main function to read data and calculate wins per team per year, then write the result to a file
 function main() {
