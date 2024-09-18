@@ -4,7 +4,6 @@ const path = require('path');
 const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
-
 function calculateMatchesPerYear(matches) {
     const matchCountPerYear = {};
    
@@ -23,7 +22,6 @@ function calculateMatchesPerYear(matches) {
   
     return matchCountPerYear;
   }
-
 
 
 // Main function to read data, calculate matches per year, and write results to a file
