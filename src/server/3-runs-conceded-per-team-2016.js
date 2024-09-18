@@ -1,14 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
+
 // Simplified read and write functions
 const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+
 
 // Function to calculate extra runs conceded per team in 2016
 function extraRunsConcededIn2016(matches, deliveries) {
   const result = {};
 
+  
   //  Filter matches for the year 2016 and get their match IDs
   const matches2016 = [];
   for (let i = 0; i < matches.length; i++) {
