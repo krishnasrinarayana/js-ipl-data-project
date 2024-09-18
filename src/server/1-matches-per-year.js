@@ -1,15 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-
 const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
 
-
 function calculateMatchesPerYear(matches) {
     const matchCountPerYear = {};
-  
    
       // Extract the year by season
       for(let i=0;i<matches.length;i++){
