@@ -16,6 +16,7 @@ function findBestEconomyInSuperOvers(deliveries) {
         }
     }
 
+    
     // Calculate runs conceded and overs bowled by each bowler in Super Overs
     for (let i = 0; i < superOverDeliveries.length; i++) {
         const delivery = superOverDeliveries[i];
@@ -47,6 +48,7 @@ function findBestEconomyInSuperOvers(deliveries) {
 
     return { bowler: bestBowler, economyRate: bestEconomyRate };
 }
+
 
 
 // Main function to read data, calculate strike rate per season, and write results to a file
