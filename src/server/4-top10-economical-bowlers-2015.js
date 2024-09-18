@@ -6,8 +6,6 @@ const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
 
-
-
 function top10EconomicalBowlersIn2015(matches, deliveries) {
     const bowlersData = {};
     const matches2015 = [];
