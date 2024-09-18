@@ -5,10 +5,12 @@ const path = require('path');
 const readJSONFromFile = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJSONToFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
+
 // Function to calculate number of times each team won the toss and match
 function calculateTossAndMatchWins(matches) {
   const tossAndMatchWins = {};
 
+  
   // Iterate over matches using a for loop
   for (let i = 0; i < matches.length; i++) {
       const match = matches[i];
