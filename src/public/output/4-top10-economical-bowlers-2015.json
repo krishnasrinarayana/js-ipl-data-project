@@ -1,0 +1,62 @@
+[
+  {
+    "bowler": "R Ashwin",
+    "economyRate": 5.871794871794871,
+    "oversBowled": 39,
+    "runsConceded": 229
+  },
+  {
+    "bowler": "MC Henriques",
+    "economyRate": 6.56,
+    "oversBowled": 25,
+    "runsConceded": 164
+  },
+  {
+    "bowler": "Z Khan",
+    "economyRate": 6.579310344827586,
+    "oversBowled": 24.166666666666668,
+    "runsConceded": 159
+  },
+  {
+    "bowler": "GB Hogg",
+    "economyRate": 7.0476190476190474,
+    "oversBowled": 21,
+    "runsConceded": 148
+  },
+  {
+    "bowler": "MA Starc",
+    "economyRate": 7.116279069767442,
+    "oversBowled": 43,
+    "runsConceded": 306
+  },
+  {
+    "bowler": "Sandeep Sharma",
+    "economyRate": 7.18,
+    "oversBowled": 50,
+    "runsConceded": 359
+  },
+  {
+    "bowler": "A Nehra",
+    "economyRate": 7.306451612903226,
+    "oversBowled": 62,
+    "runsConceded": 453
+  },
+  {
+    "bowler": "S Aravind",
+    "economyRate": 7.333333333333333,
+    "oversBowled": 18,
+    "runsConceded": 132
+  },
+  {
+    "bowler": "IC Pandey",
+    "economyRate": 7.354838709677419,
+    "oversBowled": 31,
+    "runsConceded": 228
+  },
+  {
+    "bowler": "STR Binny",
+    "economyRate": 7.526315789473684,
+    "oversBowled": 19,
+    "runsConceded": 143
+  }
+]
