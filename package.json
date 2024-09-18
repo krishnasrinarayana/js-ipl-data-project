@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "name": "js-ipl-data-project",
+  "version": "1.0.0",
+  "description": "ipl project-1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "js-ipl-project1"
+  },
+  "author": "krishnasri",
+  "license": "ISC"
+}
